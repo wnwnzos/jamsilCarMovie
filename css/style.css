@@ -2,13 +2,13 @@
 
 @font-face{
     font-family: Gugi;
-    src:url(fonts/Gugi.woff2)format("woff2");
+    src:url(../fonts/Gugi.woff2)format("woff2");
 
 }
 
 @font-face {
     font-family: Goyang;
-    src: url(fonts/Goyang.woff)format("woff");
+    src: url(../fonts/Goyang.woff)format("woff");
 }
 
 
