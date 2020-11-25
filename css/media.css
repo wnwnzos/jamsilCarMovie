@@ -369,7 +369,7 @@
 
 
 /*400px이하 모바일 미디어쿼리*/
-@media only screen and (max-width:420px) {
+@media only screen and (max-width:421px) {
     .sec_area {
 
         padding-top: 290px;
