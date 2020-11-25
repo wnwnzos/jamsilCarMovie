@@ -274,121 +274,144 @@
         border-bottom: 1px solid #dad8d8;
     }
 
-/*극장안내*/
-    
-.section5 {
-    padding-bottom: 300px;
-}
-    
-    .mvin_map {
-    top: 100px;
-}
+    /*극장안내*/
 
-    .mvin_map img{
+    .section5 {
+        padding-bottom: 300px;
+    }
+
+    .mvin_map {
+        top: 100px;
+    }
+
+    .mvin_map img {
         width: 100%;
     }
 
 
     /*공지사항*/
     .notice_list {
-    width: 90%;
-}
+        width: 90%;
+    }
 
     .notice_list li:nth-child(2n-1) {
-    height: 50px;
-    line-height: 50px;
-    border-bottom: 2px solid #605e5e;
-}
-    
+        height: 50px;
+        line-height: 50px;
+        border-bottom: 2px solid #605e5e;
+    }
+
     .notice_list p {
-    font-size: 15px;
-    padding: 20px 0;
-}
-    
-/*푸터*/
+        font-size: 15px;
+        padding: 20px 0;
+    }
+
+    /*푸터*/
     footer {
-    bottom: 0;
-}
-  .footer_wrap {
-    width: 100%;
-    padding: 10px 0 10px 0;
-      position: relative;
-}  
-.footer_wrap img {
-    width: 45px;
-}
-.footer_logo {
-    position: relative;
-    left: 6%;
-    opacity: 0.5;
-    padding-bottom: 16px;
-}    
-    .sns_text{
+        bottom: 0;
+    }
+
+    .footer_wrap {
+        width: 100%;
+        padding: 10px 0 10px 0;
+        position: relative;
+    }
+
+    .footer_wrap img {
+        width: 45px;
+    }
+
+    .footer_logo {
+        position: relative;
+        left: 6%;
+        opacity: 0.5;
+        padding-bottom: 16px;
+    }
+
+    .sns_text {
         display: none;
     }
+
     .sns_wrap {
-    padding-bottom: 15px;
-    width: 126px;
-}
-    
+        padding-bottom: 15px;
+        width: 126px;
+    }
+
     .sns_wrap > ul > li {
-    width: 30px;
-    height: 30px;
-        
-}
+        width: 30px;
+        height: 30px;
+
+    }
+
     .sns_wrap .instagram {
-    background-size: 100%;
-}
-     .sns_wrap .facebook {
-    background-size: 100%;
-}
-     .sns_wrap .twitter {
-    background-size: 100%;
-}
-    address{
+        background-size: 100%;
+    }
+
+    .sns_wrap .facebook {
+        background-size: 100%;
+    }
+
+    .sns_wrap .twitter {
+        background-size: 100%;
+    }
+
+    address {
         position: absolute;
         top: 45%;
         left: 50%;
-        transform: translate(-50%,0);
+        transform: translate(-50%, 0);
         font-style: normal;
-    } 
-    
+    }
+
 
 }
 
 
 
 /*380px이하 모바일 미디어쿼리*/
-@media only screen and (max-width:380px){
+@media only screen and (max-width:380px) {
     .sec_area {
 
-    padding-top: 290px;
-    font-size: 8rem;
-}
-    
-    .slate {
-    
-    flex-direction: column;
+        padding-top: 290px;
+        font-size: 8rem;
+    }
 
-}
-    
-    .mimg{
+    .slate {
+
+        flex-direction: column;
+
+    }
+
+    .mimg {
         width: 100%;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+    .movie_txt {
+
+        font-size: 20px;
+
+    }
+
+    .sec3_wrap {
+        width: 95%;
+    }
+
+
+    .mv_info_img {
+        height: 40%;
+    }
+
+    .notice_list p {
+        font-size: 12px;
+        padding: 20px 0;
+    }
+
+
+address {
+    left: 47%;
+
 }
 
+
+
+
+}
