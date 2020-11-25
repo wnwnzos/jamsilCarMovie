@@ -415,8 +415,7 @@
 
 }
 
-/*360px이하 모바일 미디어쿼리*/
-@media only screen and (max-width:360px){
+@media only screen and (max-width:375px){
     .sec_area {
     
     font-size: 7rem;
@@ -433,8 +432,12 @@
     
 }
 
+
+    
+    
+
 /*320px이하 모바일 미디어쿼리*/
-@media only screen and (max-width:320px){
+@media only screen and (max-width:329px){
     .sec_area {
     
     font-size: 6rem;
