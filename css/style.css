@@ -791,14 +791,15 @@ header {
     width: 50%;
 }
 
-.mvin_map img.scale{
-    transform: scale(1.5);
-}
 
 .mvin_map img:hover {
     opacity: .5;
 }
 
+.mvin_map img.scale{
+    transform: scale(1.5);
+    opacity: 1;
+}
 /*
     확대하기아이콘 - display:none
     -> 마우스오버시 마우스커버 아이콘으로 변경!!!!
