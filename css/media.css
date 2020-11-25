@@ -432,3 +432,21 @@
     
     
 }
+
+/*320px이하 모바일 미디어쿼리*/
+@media only screen and (max-width:320px){
+    .sec_area {
+    
+    font-size: 6rem;
+}
+    .sec_area small {
+    font-size: 33px;
+}
+    
+    .sec_area i {
+   
+    margin-left: 9px;
+}
+    
+    
+}
