@@ -1,0 +1,361 @@
+/*1280이하 미디어쿼리*/
+@media only screen and (max-width: 1280px) {
+    html {
+        font-size: 14px;
+    }
+
+    .gnb {
+        width: 70%;
+        font-size: 20px;
+    }
+
+    #movie_list {
+        padding: 0 13%;
+    }
+
+    .mv_info_text {
+        width: 50%;
+        font-size: 24px;
+    }
+
+    #vidSizer {
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 150vh;
+        max-width: 95%;
+    }
+
+}
+
+
+/*1200px이하 사이즈*/
+@media only screen and (max-width:1200px) {
+
+    /*
+    전체글자조정
+    rem으로 코딩된 사이즈는 
+    root인 html의 글자크기를
+    기준으로 변경된다!*/
+    html {
+        font-size: 14px;
+        /*기본은 16px, html의 글자크기를 바꾸면 하위요소들 중 rem,em에 계산 기준이 된다*/
+    }
+
+
+
+}
+
+
+/*1100px 이하 미디어쿼리*/
+@media only screen and (max-width:1100px) {
+
+    /*전체글자크기*/
+    html {
+        font-size: 13px;
+    }
+
+    #movie_list {
+        padding: 0 9%;
+    }
+
+    .mv_info_text {
+        font-size: 22px;
+    }
+
+}
+
+
+/*1024px 이하 미디어쿼리(태블릿)*/
+@media only screen and (max-width:1024px) {
+    html {
+        font-size: 12px;
+    }
+
+    #movie_list {
+        padding: 0 7%;
+    }
+
+    .mv_info_text {
+        width: 44%;
+        font-size: 20px;
+        padding: 50px 50px 50px 0;
+
+    }
+
+    .mvin_map img {
+        width: 65%;
+    }
+
+}
+
+
+
+
+
+
+
+
+/*500px이하 모바일 미디어쿼리*/
+@media only screen and (max-width:500px) {
+    html {
+        font-size: 9px;
+    }
+
+    /*로고*/
+    .header_wrap h1 img {
+        width: 40px;
+        padding-top: 13px;
+
+    }
+
+
+    .gnb {
+        display: none;
+    }
+
+    .quick_navi {
+        display: none;
+    }
+
+    .ham {
+        display: block;
+    }
+
+    /*section1*/
+
+    .section1 {
+        margin-top: -100px;
+        background: url(../images/bg_intro.jpg)no-repeat center/cover;
+        padding-bottom: 30px;
+
+    }
+
+    .sec_area {
+        padding-top: 270px;
+        font-size: 9rem;
+    }
+
+    .sec_text {
+
+
+        padding-top: 0;
+        margin-top: 30%;
+        font-size: 70px;
+        text-shadow: 3px 3px #2f2f2a;
+    }
+
+    .sec_area small {
+
+        font-size: 40px;
+        display: block;
+
+
+    }
+
+    .sec_area i {
+
+        font-size: 20px;
+        margin-left: 40px;
+
+
+    }
+
+
+    /*위치*/
+    .location {
+
+        margin-top: 90px;
+        padding-top: 0;
+
+    }
+
+
+
+    /*슬래이트*/
+    .slate {
+        display: flex;
+        margin: 0 auto;
+        padding-top: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .slate li {
+        background: url(../images/slate.png)no-repeat center/cover;
+        width: 150px;
+        height: 150px;
+        margin-right: 17px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .slate li:last-child {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .slate_title {
+        transition: none;
+        top: 47%;
+        font-weight: bold;
+        font-size: 16px;
+        color: #ffe4ab;
+    }
+
+    .slate_sub {
+        transition: none;
+        top: 50%;
+        opacity: 1;
+        font-size: 21px;
+        font-weight: bold;
+
+    }
+
+    /*현재상영작*/
+    #mainVid {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /*상영시간표*/
+    .sec3_wrap img {
+        width: 100%;
+    }
+
+    /*상영예정작*/
+    .section4 h3 {
+        height: 50px;
+        line-height: 47px;
+        border-top: 1px solid #dad8d8
+    }
+
+    .btn_more {
+        font-size: 29px;
+    }
+
+    .btn_more img {
+        width: 25px;
+    }
+
+
+    .myinfo_box {
+        width: 100%;
+    }
+
+    .mv_info_img {
+        width: 100%;
+        height: 50%;
+        margin: 0;
+    }
+
+    .mv_info_text {
+        width: 100%;
+        font-size: 14px;
+        padding: 20px;
+
+    }
+
+    .mv_info_text b {
+        padding: 14px 0 14px 0;
+    }
+
+    .mv1,
+    .mv2,
+    .mv3,
+    .mv4 {
+        background-size: 50%;
+        background-position: top;
+    }
+
+    #welcome {
+        border-bottom: 1px solid #dad8d8;
+    }
+
+/*극장안내*/
+    
+.section5 {
+    padding-bottom: 300px;
+}
+    
+    .mvin_map {
+    top: 100px;
+}
+
+    .mvin_map img{
+        width: 100%;
+    }
+
+
+    /*공지사항*/
+    .notice_list {
+    width: 90%;
+}
+
+    .notice_list li:nth-child(2n-1) {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 2px solid #605e5e;
+}
+    
+    .notice_list p {
+    font-size: 15px;
+    padding: 20px 0;
+}
+    
+/*푸터*/
+    footer {
+    bottom: 0;
+}
+  .footer_wrap {
+    width: 100%;
+    padding: 10px 0 10px 0;
+      position: relative;
+}  
+.footer_wrap img {
+    width: 45px;
+}
+.footer_logo {
+    position: relative;
+    left: 6%;
+    opacity: 0.5;
+    padding-bottom: 16px;
+}    
+    .sns_text{
+        display: none;
+    }
+    .sns_wrap {
+    padding-bottom: 15px;
+    width: 126px;
+}
+    
+    .sns_wrap > ul > li {
+    width: 30px;
+    height: 30px;
+        
+}
+    .sns_wrap .instagram {
+    background-size: 100%;
+}
+     .sns_wrap .facebook {
+    background-size: 100%;
+}
+     .sns_wrap .twitter {
+    background-size: 100%;
+}
+    address{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%,0);
+        font-style: normal;
+    } 
+    
+    
+    
+    
+    
+
+}
