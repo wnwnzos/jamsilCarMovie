@@ -1,17 +1,16 @@
 @charset "utf-8";
 
-@font-face {
-    font-family: Goyang;
-    src: url(../fonts/Goyang.woff)format("woff");
+@font-face{
     font-family: Gugi;
-    src:url(../fonts/Gugi.woff)format("woff");
-
-
+    src:url(fonts/Gugi.woff2)format("woff2");
 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
-/*font-family: 'Noto Sans KR', sans-serif;*/
+@font-face {
+    font-family: Goyang;
+    src: url(fonts/Goyang.woff)format("woff");
+}
+
 
 /*스크롤바*/
 body::-webkit-scrollbar {
@@ -282,7 +281,7 @@ header {
     text-align: center;
     font-weight: bold;
     margin: 0 auto;
-    font-family: Gugi;
+    font-family: "Gugi";
     font-size: 15rem;
     color: #fff;
     padding-top: 140px;
