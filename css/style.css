@@ -2,11 +2,9 @@
 
 @font-face {
     font-family: Goyang;
-    src: url(fonts/Goyang.ttf)format("turetype"),
-        url(fonts/Goyang.woff)format("woff");
+    src: url(../fonts/Goyang.woff)format("woff");
     font-family: Gugi;
-    src: url(fonts/Gugi.ttf)format("turetype"),
-        url(fonts/Gugi.woff)format("woff");
+    src:url(../fonts/Gugi.woff)format("woff");
 
 
 
