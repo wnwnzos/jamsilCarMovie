@@ -97,8 +97,8 @@
 
 
 
-/*500px이하 모바일 미디어쿼리*/
-@media only screen and (max-width:500px) {
+/*768px이하 모바일 미디어쿼리*/
+@media only screen and (max-width:768px) {
     html {
         font-size: 9px;
     }
@@ -367,8 +367,9 @@
 
 
 
-/*380px이하 모바일 미디어쿼리*/
-@media only screen and (max-width:400px) {
+
+/*400px이하 모바일 미디어쿼리*/
+@media only screen and (max-width:420px) {
     .sec_area {
 
         padding-top: 290px;
