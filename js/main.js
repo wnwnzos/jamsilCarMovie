@@ -292,13 +292,6 @@ $(function () {
     }); ///////// click ////////////
 
 
-/*극장안내*************/
-    $(".mvin_map img").click(function(){
-        $(this).addClass("scale")
-
-    });
-
-
 
 
     /*공지사항*/

@@ -789,30 +789,13 @@ header {
 
 .mvin_map img {
     width: 50%;
+   
+}
+.mvin_map img:hover{
+     transform: scale(1.3);
+    transition: all .5s ease-in-out;
 }
 
-
-.mvin_map img:hover {
-    opacity: .5;
-}
-
-.mvin_map img.scale{
-    transform: scale(1.5);
-    opacity: 1;
-}
-/*
-    확대하기아이콘 - display:none
-    -> 마우스오버시 마우스커버 아이콘으로 변경!!!!
-*/
-.mvin_map .full_img {
-    width: 70px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
-
-}
 
 /*공지사항*****************************************/
 .section6 {
